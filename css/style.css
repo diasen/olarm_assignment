@@ -1,0 +1,13 @@
+/* remember variables is always the 1st stylesheet you import
+   order of the imports matter
+*/
+.hero_img {
+  padding: 0;
+}
+
+.hero_section {
+  background-image: url("/img/Header.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*# sourceMappingURL=style.css.map */
