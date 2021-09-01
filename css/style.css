@@ -1,23 +1,15 @@
 /* remember variables is always the 1st stylesheet you import
    order of the imports matter
 */
-.container__hero {
-  width: 100%;
-  height: 800px;
-  border: 1px solid black;
-  background-image: url("/img/Header.jpg");
+.auto-aiming {
+  background-image: url("/img/Rectangle.png");
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  height: 300px;
 }
 
-.navbar {
-  background-color: transparent !important;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+.easy-installation {
+  background-image: url("/img/Group 1452.png");
 }
 /*# sourceMappingURL=style.css.map */
