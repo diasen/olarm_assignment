@@ -1,7 +1,32 @@
 .header {
   background-image: url("/img/Header.jpg");
-  height: 100vh;
+  height: 700px;
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
+}
+
+.bg-light {
+  background-color: transparent !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+}
+
+.hero-text {
+  color: white;
+
+  &__heading {
+    font-size: 4rem;
+    margin: 70px 0;
+  }
+  &__subheading {
+    font-size: 1.3rem;
+    margin: 20px 0;
+  }
+
+  &--red {
+    color: red;
+  }
 }

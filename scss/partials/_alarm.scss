@@ -1,0 +1,19 @@
+.alarm__section {
+  padding: 0;
+}
+
+.alarm__section--hero {
+  background-image: url("/img/alarmbackground.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.alarm__section--text {
+  text-align: center;
+}
+
+.alarm__section--text {
+  padding-top: 60px;
+}

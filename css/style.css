@@ -1,15 +1,93 @@
 /* remember variables is always the 1st stylesheet you import
    order of the imports matter
 */
-.auto-aiming {
-  background-image: url("/img/Rectangle.png");
-  background-position: center;
-  background-repeat: no-repeat;
+.header {
+  background-image: url("/img/Header.jpg");
+  height: 700px;
   background-size: cover;
-  height: 300px;
+  background-repeat: no-repeat;
+  width: 100%;
 }
 
-.easy-installation {
+.bg-light {
+  background-color: transparent !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+}
+
+.hero-text {
+  color: white;
+}
+
+.hero-text__heading {
+  font-size: 4rem;
+  margin: 70px 0;
+}
+
+.hero-text__subheading {
+  font-size: 1.3rem;
+  margin: 20px 0;
+}
+
+.hero-text--red {
+  color: red;
+}
+
+.video__card--one {
+  background-image: url("/img/Rectangle.png");
+}
+
+.video__card--two {
   background-image: url("/img/Group 1452.png");
+}
+
+.video__card--three {
+  background-image: url("/img/Rectangle1.png");
+}
+
+.video__card--four {
+  background-image: url("/img/Rectangle2.png");
+  margin-bottom: 200px;
+}
+
+.video__card--one,
+.video__card--two,
+.video__card--three,
+.video__card--four {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+  margin-top: 1.4rem;
+  position: relative;
+}
+
+.video__card-text {
+  color: white;
+  position: absolute;
+  bottom: 0;
+  padding-left: 30px;
+}
+
+.alarm__section {
+  padding: 0;
+}
+
+.alarm__section--hero {
+  background-image: url("/img/alarmbackground.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.alarm__section--text {
+  text-align: center;
+}
+
+.alarm__section--text {
+  padding-top: 60px;
 }
 /*# sourceMappingURL=style.css.map */

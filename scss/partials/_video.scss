@@ -1,0 +1,35 @@
+.video__card--one {
+  background-image: url("/img/Rectangle.png");
+}
+
+.video__card--two {
+  background-image: url("/img/Group\ 1452.png");
+}
+
+.video__card--three {
+  background-image: url("/img/Rectangle1.png");
+}
+
+.video__card--four {
+  background-image: url("/img/Rectangle2.png");
+  margin-bottom: 200px;
+}
+
+.video__card--one,
+.video__card--two,
+.video__card--three,
+.video__card--four {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+  margin-top: 1.4rem;
+  position: relative;
+}
+
+.video__card-text {
+  color: white;
+  position: absolute;
+  bottom: 0;
+  padding-left: 30px;
+}
